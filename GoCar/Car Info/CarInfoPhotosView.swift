@@ -5,7 +5,7 @@ struct CarInfoPhotosView: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 4) {
             Text("Car Interior")
-                .foregroundColor(.gray)
+                .foregroundColor(.black)
             HStack {
                 Image("pic1")
                     .resizable()
