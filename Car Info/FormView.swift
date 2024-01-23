@@ -6,6 +6,9 @@ struct FormView: View {
     @EnvironmentObject var order: OrderViewModel
     
     init() {
+        UITableView.appearance().sectionHeaderHeight = 0
+        UITableView.appearance().sectionFooterHeight = 10
+        UITableView.appearance().backgroundColor = .clear
     }
     
     var body: some View {
@@ -35,8 +38,7 @@ struct FormView: View {
     var numberOfCars: some View {
         Section {
             Picker(selection: $order.prototypeAmt, label: Text("Number of cars")) {
-                ForEach (0 ..< order.prototypeArray.count, id: \.self) {
-                    value in
+                ForEach (0 ..< order.prototypeArray.count, id: \.self) { value in
                     Text("\(self.order.prototypeArray[value])")
                         .tag(value)
                 }
@@ -47,8 +49,7 @@ struct FormView: View {
     var pickupTime: some View {
         Section {
             Picker(selection: $order.prototypeAmt, label: Text("Pick-up time")) {
-                ForEach (0 ..< order.prototypeArray.count, id: \.self) {
-                    value in
+                ForEach (0 ..< order.prototypeArray.count, id: \.self) { value in
                     Text("In \(self.order.prototypeArray[value]) mins")
                         .tag(value)
                 }
@@ -59,15 +60,13 @@ struct FormView: View {
     var location: some View {
         Section {
             Picker (selection: $order.prototypeAmt, label: Text("Pick-up location")) {
-                ForEach (0 ..< order.prototypeArray.count, id: \.self) {
-                    value in
+                ForEach (0 ..< order.prototypeArray.count, id: \.self) { value in
                     Text("\(self.order.prototypeArray[value])")
                         .tag(value)
                 }
             }
             Picker(selection: $order.prototypeAmt, label: Text("Return location")) {
-                ForEach (0 ..< order.prototypeArray.count, id: \.self) {
-                    value in
+                ForEach (0 ..< order.prototypeArray.count, id: \.self) { value in
                     Text("\(self.order.prototypeArray[value])")
                         .tag(value)
                 }
@@ -107,6 +106,7 @@ struct FormView: View {
         }
     }
 }
+
 
 struct FormView_Previews: PreviewProvider {
     static var previews: some View {
