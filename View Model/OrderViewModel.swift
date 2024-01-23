@@ -1,4 +1,3 @@
-
 import Foundation
 import SwiftUI
 import Combine
@@ -14,10 +13,3 @@ class OrderViewModel: ObservableObject {
     @Published var isCancelOrderVisible = false
     @Published var isModalVisible = false
 }
-
-
-
-
-
-
-
