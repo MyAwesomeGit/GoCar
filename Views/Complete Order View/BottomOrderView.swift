@@ -33,7 +33,7 @@ struct BottomOrderView: View {
         .padding(.horizontal, 15)
         .frame(height: 55)
         .frame(minWidth: 0, maxWidth: .infinity)
-        .background(Color.gray)
+        .background(Color.clear)
         .cornerRadius(10)
     }
     
@@ -69,7 +69,7 @@ struct BottomOrderView: View {
         }
         .frame(height: 55)
         .frame(minWidth: 0, maxWidth: .infinity)
-        .background(Color.gray)
+        .background(Color.clear)
         .buttonStyle(PlainButtonStyle())
         .cornerRadius(10)
         .foregroundColor(.cardinal)
