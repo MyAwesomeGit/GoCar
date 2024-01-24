@@ -26,6 +26,7 @@ struct BottomOrderView: View {
                 Text("hours")
             }
             Spacer()
+            
             HStack(spacing: 4) {
                 Text("$160")
             }

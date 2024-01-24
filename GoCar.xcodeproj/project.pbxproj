@@ -18,6 +18,9 @@
 		C84A784B2B6009C7006FFCED /* BottomOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84A784A2B6009C7006FFCED /* BottomOrderView.swift */; };
 		C84A784D2B600FDA006FFCED /* CompleteOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84A784C2B600FDA006FFCED /* CompleteOrderView.swift */; };
 		C84A78512B601550006FFCED /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84A78502B601550006FFCED /* NavigationBarView.swift */; };
+		C84A78542B615224006FFCED /* VibrancyBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84A78532B615224006FFCED /* VibrancyBackground.swift */; };
+		C84A78572B61538F006FFCED /* CancelOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84A78562B61538F006FFCED /* CancelOrderView.swift */; };
+		C84A78592B6154E2006FFCED /* CancelOrderDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84A78582B6154E2006FFCED /* CancelOrderDialog.swift */; };
 		C84CD7302B5BF40400D33E11 /* GoCarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84CD72F2B5BF40400D33E11 /* GoCarApp.swift */; };
 		C84CD7322B5BF40400D33E11 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84CD7312B5BF40400D33E11 /* ContentView.swift */; };
 		C84CD7342B5BF40600D33E11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C84CD7332B5BF40600D33E11 /* Assets.xcassets */; };
@@ -36,6 +39,9 @@
 		C84A784A2B6009C7006FFCED /* BottomOrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomOrderView.swift; sourceTree = "<group>"; };
 		C84A784C2B600FDA006FFCED /* CompleteOrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteOrderView.swift; sourceTree = "<group>"; };
 		C84A78502B601550006FFCED /* NavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarView.swift; sourceTree = "<group>"; };
+		C84A78532B615224006FFCED /* VibrancyBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VibrancyBackground.swift; sourceTree = "<group>"; };
+		C84A78562B61538F006FFCED /* CancelOrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelOrderView.swift; sourceTree = "<group>"; };
+		C84A78582B6154E2006FFCED /* CancelOrderDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelOrderDialog.swift; sourceTree = "<group>"; };
 		C84CD72C2B5BF40400D33E11 /* GoCar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoCar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C84CD72F2B5BF40400D33E11 /* GoCarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoCarApp.swift; sourceTree = "<group>"; };
 		C84CD7312B5BF40400D33E11 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -76,6 +82,7 @@
 		C84A78462B6005F4006FFCED /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				C84A78552B615384006FFCED /* Cancel Order View */,
 				C84A78472B600601006FFCED /* Complete Order View */,
 			);
 			path = Views;
@@ -114,6 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				C84A784F2B601545006FFCED /* View Modifier */,
+				C84A78522B615219006FFCED /* View Representable */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -124,6 +132,23 @@
 				C84A78502B601550006FFCED /* NavigationBarView.swift */,
 			);
 			path = "View Modifier";
+			sourceTree = "<group>";
+		};
+		C84A78522B615219006FFCED /* View Representable */ = {
+			isa = PBXGroup;
+			children = (
+				C84A78532B615224006FFCED /* VibrancyBackground.swift */,
+			);
+			path = "View Representable";
+			sourceTree = "<group>";
+		};
+		C84A78552B615384006FFCED /* Cancel Order View */ = {
+			isa = PBXGroup;
+			children = (
+				C84A78562B61538F006FFCED /* CancelOrderView.swift */,
+				C84A78582B6154E2006FFCED /* CancelOrderDialog.swift */,
+			);
+			path = "Cancel Order View";
 			sourceTree = "<group>";
 		};
 		C84CD7232B5BF40400D33E11 = {
@@ -244,9 +269,12 @@
 				C84A783E2B5EB757006FFCED /* CarDetailView.swift in Sources */,
 				C84CD7302B5BF40400D33E11 /* GoCarApp.swift in Sources */,
 				C84A783C2B5EB4F2006FFCED /* CarInfoView.swift in Sources */,
+				C84A78572B61538F006FFCED /* CancelOrderView.swift in Sources */,
 				C84A78372B5BFBA4006FFCED /* CarInfoDetailView.swift in Sources */,
 				C84A784D2B600FDA006FFCED /* CompleteOrderView.swift in Sources */,
 				C84A78352B5BF9AC006FFCED /* CarInfoBasicView.swift in Sources */,
+				C84A78592B6154E2006FFCED /* CancelOrderDialog.swift in Sources */,
+				C84A78542B615224006FFCED /* VibrancyBackground.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
