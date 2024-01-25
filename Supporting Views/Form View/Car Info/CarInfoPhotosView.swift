@@ -5,6 +5,7 @@ struct CarInfoPhotosView: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 4) {
             Text("Car Interior")
+                .custom(font: .medium, size: 22)
                 .foregroundColor(.black)
             HStack {
                 Image("pic1")

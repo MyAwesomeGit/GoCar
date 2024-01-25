@@ -8,6 +8,7 @@ struct TeslaButtonStyle: ButtonStyle {
             .frame(height: 64)
             .frame(minWidth: 0, maxWidth: .infinity)
             .padding(.horizontal, 20)
-//            .buttonStyle(PlainButtonStyle())
+            .custom(font: .bold, size: 21)
+            .buttonStyle(PlainButtonStyle())
     }
 }

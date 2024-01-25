@@ -15,24 +15,30 @@ struct CarInfoDetailView: View {
     var column1: some View {
         VStack(alignment: .leading) {
             Text("Transmission")
+                .custom(font: .medium, size: 16)
                 .foregroundColor(.gray)
             Text("Automatic")
+                .custom(font: .medium, size: 22)
         }
     }
     
     var column2: some View {
         VStack(alignment: .leading) {
             Text("Class")
+                .custom(font: .medium, size: 16)
                 .foregroundColor(.gray)
             Text("Luxury")
+                .custom(font: .medium, size: 22)
         }
     }
     
     var column3: some View {
         VStack(alignment: .leading) {
             Text("Year")
+                .custom(font: .medium, size: 16)
                 .foregroundColor(.gray)
             Text("2024")
+                .custom(font: .medium, size: 22)
         }
     }
 }

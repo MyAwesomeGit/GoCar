@@ -40,7 +40,7 @@ struct CancelOrderDialog: View {
             Text("Yes, cancel")
         }
         .buttonStyle(TeslaButtonStyle())
-        .background(Color.cardinal)
+        .background(Color.baseCardinal)
         .cornerRadius(8)
         .foregroundColor(.white)
     }

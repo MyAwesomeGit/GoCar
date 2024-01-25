@@ -7,6 +7,7 @@ struct CarInfoBasicView: View {
         {
             HStack {
                 Text("Tesla Model S")
+                    .custom(font: .bold, size: 28)
                 Spacer()
                 Image(systemName: "info.circle")
                     .font(.system(size: 28))
@@ -14,6 +15,7 @@ struct CarInfoBasicView: View {
             }
             VStack(alignment: .leading, spacing: 4) {
                 Text("$80/hr")
+                    .custom(font: .medium, size: 19)
                     .foregroundColor(.gray)
                 HStack {
                     ForEach(0..<5) { _ in
