@@ -22,6 +22,15 @@
 		C84A78572B61538F006FFCED /* CancelOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84A78562B61538F006FFCED /* CancelOrderView.swift */; };
 		C84A78592B6154E2006FFCED /* CancelOrderDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84A78582B6154E2006FFCED /* CancelOrderDialog.swift */; };
 		C84A785C2B615DC0006FFCED /* TeslaButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84A785B2B615DC0006FFCED /* TeslaButtonStyle.swift */; };
+		C84A785F2B62AA0E006FFCED /* CustomTextStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84A785E2B62AA0E006FFCED /* CustomTextStyle.swift */; };
+		C84A78612B62AA24006FFCED /* Palette+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84A78602B62AA24006FFCED /* Palette+Color.swift */; };
+		C84A78632B62AA3B006FFCED /* ScaledFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84A78622B62AA3B006FFCED /* ScaledFont.swift */; };
+		C84A786B2B62AA70006FFCED /* AvenirNextCondensed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C84A78652B62AA70006FFCED /* AvenirNextCondensed-Regular.ttf */; };
+		C84A786C2B62AA70006FFCED /* AvenirNextCondensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C84A78662B62AA70006FFCED /* AvenirNextCondensed-Bold.ttf */; };
+		C84A786D2B62AA70006FFCED /* AvenirNextCondensed-DemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C84A78672B62AA70006FFCED /* AvenirNextCondensed-DemiBold.ttf */; };
+		C84A786E2B62AA70006FFCED /* AvenirNextCondensed-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C84A78682B62AA70006FFCED /* AvenirNextCondensed-Medium.ttf */; };
+		C84A786F2B62AA70006FFCED /* AvenirNextCondensed-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C84A78692B62AA70006FFCED /* AvenirNextCondensed-Heavy.ttf */; };
+		C84A78702B62AA70006FFCED /* AvenirNextCondensed-UltraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C84A786A2B62AA70006FFCED /* AvenirNextCondensed-UltraLight.ttf */; };
 		C84CD7302B5BF40400D33E11 /* GoCarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84CD72F2B5BF40400D33E11 /* GoCarApp.swift */; };
 		C84CD7322B5BF40400D33E11 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84CD7312B5BF40400D33E11 /* ContentView.swift */; };
 		C84CD7342B5BF40600D33E11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C84CD7332B5BF40600D33E11 /* Assets.xcassets */; };
@@ -44,6 +53,15 @@
 		C84A78562B61538F006FFCED /* CancelOrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelOrderView.swift; sourceTree = "<group>"; };
 		C84A78582B6154E2006FFCED /* CancelOrderDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelOrderDialog.swift; sourceTree = "<group>"; };
 		C84A785B2B615DC0006FFCED /* TeslaButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeslaButtonStyle.swift; sourceTree = "<group>"; };
+		C84A785E2B62AA0E006FFCED /* CustomTextStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextStyle.swift; sourceTree = "<group>"; };
+		C84A78602B62AA24006FFCED /* Palette+Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Palette+Color.swift"; sourceTree = "<group>"; };
+		C84A78622B62AA3B006FFCED /* ScaledFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaledFont.swift; sourceTree = "<group>"; };
+		C84A78652B62AA70006FFCED /* AvenirNextCondensed-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirNextCondensed-Regular.ttf"; sourceTree = "<group>"; };
+		C84A78662B62AA70006FFCED /* AvenirNextCondensed-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirNextCondensed-Bold.ttf"; sourceTree = "<group>"; };
+		C84A78672B62AA70006FFCED /* AvenirNextCondensed-DemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirNextCondensed-DemiBold.ttf"; sourceTree = "<group>"; };
+		C84A78682B62AA70006FFCED /* AvenirNextCondensed-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirNextCondensed-Medium.ttf"; sourceTree = "<group>"; };
+		C84A78692B62AA70006FFCED /* AvenirNextCondensed-Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirNextCondensed-Heavy.ttf"; sourceTree = "<group>"; };
+		C84A786A2B62AA70006FFCED /* AvenirNextCondensed-UltraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirNextCondensed-UltraLight.ttf"; sourceTree = "<group>"; };
 		C84CD72C2B5BF40400D33E11 /* GoCar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoCar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C84CD72F2B5BF40400D33E11 /* GoCarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoCarApp.swift; sourceTree = "<group>"; };
 		C84CD7312B5BF40400D33E11 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -122,6 +140,7 @@
 		C84A784E2B601536006FFCED /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				C84A785D2B62A9E6006FFCED /* _theming */,
 				C84A785A2B615DB5006FFCED /* Button Styles */,
 				C84A784F2B601545006FFCED /* View Modifier */,
 				C84A78522B615219006FFCED /* View Representable */,
@@ -160,6 +179,30 @@
 				C84A785B2B615DC0006FFCED /* TeslaButtonStyle.swift */,
 			);
 			path = "Button Styles";
+			sourceTree = "<group>";
+		};
+		C84A785D2B62A9E6006FFCED /* _theming */ = {
+			isa = PBXGroup;
+			children = (
+				C84A78642B62AA70006FFCED /* Font */,
+				C84A785E2B62AA0E006FFCED /* CustomTextStyle.swift */,
+				C84A78602B62AA24006FFCED /* Palette+Color.swift */,
+				C84A78622B62AA3B006FFCED /* ScaledFont.swift */,
+			);
+			path = _theming;
+			sourceTree = "<group>";
+		};
+		C84A78642B62AA70006FFCED /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				C84A78652B62AA70006FFCED /* AvenirNextCondensed-Regular.ttf */,
+				C84A78662B62AA70006FFCED /* AvenirNextCondensed-Bold.ttf */,
+				C84A78672B62AA70006FFCED /* AvenirNextCondensed-DemiBold.ttf */,
+				C84A78682B62AA70006FFCED /* AvenirNextCondensed-Medium.ttf */,
+				C84A78692B62AA70006FFCED /* AvenirNextCondensed-Heavy.ttf */,
+				C84A786A2B62AA70006FFCED /* AvenirNextCondensed-UltraLight.ttf */,
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 		C84CD7232B5BF40400D33E11 = {
@@ -258,8 +301,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C84A786F2B62AA70006FFCED /* AvenirNextCondensed-Heavy.ttf in Resources */,
+				C84A786B2B62AA70006FFCED /* AvenirNextCondensed-Regular.ttf in Resources */,
+				C84A78702B62AA70006FFCED /* AvenirNextCondensed-UltraLight.ttf in Resources */,
+				C84A786C2B62AA70006FFCED /* AvenirNextCondensed-Bold.ttf in Resources */,
+				C84A786D2B62AA70006FFCED /* AvenirNextCondensed-DemiBold.ttf in Resources */,
 				C84CD7372B5BF40600D33E11 /* Preview Assets.xcassets in Resources */,
 				C84CD7342B5BF40600D33E11 /* Assets.xcassets in Resources */,
+				C84A786E2B62AA70006FFCED /* AvenirNextCondensed-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,12 +330,15 @@
 				C84A783E2B5EB757006FFCED /* CarDetailView.swift in Sources */,
 				C84CD7302B5BF40400D33E11 /* GoCarApp.swift in Sources */,
 				C84A783C2B5EB4F2006FFCED /* CarInfoView.swift in Sources */,
+				C84A78612B62AA24006FFCED /* Palette+Color.swift in Sources */,
 				C84A78572B61538F006FFCED /* CancelOrderView.swift in Sources */,
 				C84A78372B5BFBA4006FFCED /* CarInfoDetailView.swift in Sources */,
+				C84A78632B62AA3B006FFCED /* ScaledFont.swift in Sources */,
 				C84A784D2B600FDA006FFCED /* CompleteOrderView.swift in Sources */,
 				C84A78352B5BF9AC006FFCED /* CarInfoBasicView.swift in Sources */,
 				C84A78592B6154E2006FFCED /* CancelOrderDialog.swift in Sources */,
 				C84A78542B615224006FFCED /* VibrancyBackground.swift in Sources */,
+				C84A785F2B62AA0E006FFCED /* CustomTextStyle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,7 +480,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -462,7 +514,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

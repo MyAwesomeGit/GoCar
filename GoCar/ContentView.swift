@@ -23,6 +23,7 @@ struct ContentView: View {
                 .environmentObject(order)
                 .opacity(order.isOrderCompleteVisible ? 1 : 0)
                 .animation(.default)
+                .padding(.bottom, 20)
         }
     }
 }
