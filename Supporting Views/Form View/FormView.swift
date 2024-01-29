@@ -26,9 +26,9 @@ struct FormView: View {
     
     var rentalPeriod: some View {
         Section {
-            Picker(selection: $order.prototypeAmt, label: Text("Rental period")) {
-                ForEach (0 ..< order.prototypeArray.count, id: \.self) { value in
-                    Text("\(self.order.prototypeArray[value])")
+            Picker(selection: $order.rentalAmount, label: Text("Rental period")) {
+                ForEach (0 ..< order.rentalPeriods.count, id: \.self) {value in
+                    Text("\(self.order.rentalPeriods[value])")
                         .tag(value)
                 }
             }
@@ -37,9 +37,9 @@ struct FormView: View {
     
     var numberOfCars: some View {
         Section {
-            Picker(selection: $order.prototypeAmt, label: Text("Number of cars")) {
-                ForEach (0 ..< order.prototypeArray.count, id: \.self) { value in
-                    Text("\(self.order.prototypeArray[value])")
+            Picker(selection: $order.amountOfCars, label: Text("Number of cars")) {
+                ForEach (0 ..< order.numberOfCars.count, id: \.self) { value in
+                    Text("\(self.order.numberOfCars[value])")
                         .tag(value)
                 }
             }
@@ -48,9 +48,9 @@ struct FormView: View {
     
     var pickupTime: some View {
         Section {
-            Picker(selection: $order.prototypeAmt, label: Text("Pick-up time")) {
-                ForEach (0 ..< order.prototypeArray.count, id: \.self) { value in
-                    Text("In \(self.order.prototypeArray[value]) mins")
+            Picker(selection: $order.pickupTime, label: Text("Pick-up time")) {
+                ForEach (0 ..< order.pickupTimes.count, id: \.self) { value in
+                    Text("In \(self.order.pickupTimes[value]) mins")
                         .tag(value)
                 }
             }
@@ -59,15 +59,15 @@ struct FormView: View {
     
     var location: some View {
         Section {
-            Picker (selection: $order.prototypeAmt, label: Text("Pick-up location")) {
-                ForEach (0 ..< order.prototypeArray.count, id: \.self) { value in
-                    Text("\(self.order.prototypeArray[value])")
+            Picker (selection: $order.location, label: Text("Pick-up location")) {
+                ForEach (0 ..< order.locations.count, id: \.self) { value in
+                    Text("\(self.order.locations[value])")
                         .tag(value)
                 }
             }
-            Picker(selection: $order.prototypeAmt, label: Text("Return location")) {
-                ForEach (0 ..< order.prototypeArray.count, id: \.self) { value in
-                    Text("\(self.order.prototypeArray[value])")
+            Picker(selection: $order.location, label: Text("Return location")) {
+                ForEach (0 ..< order.locations.count, id: \.self) { value in
+                    Text("\(self.order.locations[value])")
                         .tag(value)
                 }
             }
@@ -76,7 +76,7 @@ struct FormView: View {
     
     var drivers: some View {
         Section {
-            Toggle(isOn: $order.prototypeBoolean) {
+            Toggle(isOn: $order.specialDriver) {
                 Text("Drivers")
             }.toggleStyle(SwitchToggleStyle(tint: .green))
         }.listRowBackground(Color.gray)
